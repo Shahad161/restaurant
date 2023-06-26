@@ -4,9 +4,11 @@ import Nav from './component/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Nav/>
+    <div className="container">
+      <div className='nav_container'>
+        <Header/>
+        <Nav/>
+      </div>
     </div>
   );
 }

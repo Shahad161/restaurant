@@ -1,8 +1,10 @@
 import React from "react";
+import logo from './logo.png';
+
 
 const Header = () => {
     return <header>
-       <img src="logo.png"alt="Little Lemon Logo" />
+       <img className="logo" src={logo} alt="Little Lemon Logo" />
     </header>
 }
 
